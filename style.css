@@ -1,0 +1,32 @@
+.pt-12
+{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+   border-radius: 30px;
+   
+}
+.pt-1
+{
+    width: 90%;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: cadetblue 10px 10px 15px;
+    border: darkcyan 10px ridge;
+}
+
+#copy_fil
+{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: darkslategray;
+    color: ghostwhite;
+    width: 100%;
+}
+body{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+}

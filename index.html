@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title> Dynamic Recognition Moblienet App </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body background="Background.jpg">
+        <center>
+        <div class = " btn btn-info pt-1">
+            <p style = "font-size: 32px;"> Dynamic Recognition Moblienet App </p>
+            
+            <hr>
+            <div  class = "pt-12">
+                <p style = "font-size: 32px;"> Mobilenet Is Being Used</p>
+                <p style = "font-size: 32px;"> A App That Identifies 1.3 Millon Things. </p>
+            </div>
+        </div>
+        <br>
+                  <h1 class = "btn btn-success a" style  = "font-size: 30px;"> Object : <span id = "ob"></span></h1>
+                  
+                  <h1 class = "btn btn-success a" style  = "font-size: 30px;"> Accuracy : <span id = "acc"></span></h1>
+                  <br>
+                  <br>
+                <button class = "btn btn-info s" style  = "font-size: 30px;" onclick="apply_filter()"> Apply Filter </button>
+
+
+                <div id = "copy_fil">
+                    <h1> Made By - #Rollin </h1>
+                </div>
+            </center>
+            <script src = "main.js"></script>
+    </body>
+</html>
